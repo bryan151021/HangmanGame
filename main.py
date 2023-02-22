@@ -10,6 +10,8 @@ def random_word(topic):
         word = random.choice(Classic)
         word = word.upper()
         count += 0
+        if answer[0] == "Y":
+            count = 0
         return play(word)
     elif topic == "MOVIE":
         word = random.choice(Movies)
@@ -63,8 +65,12 @@ def play(word):
             else:
                 print(f"Correct {user_guess} is in the word")
                 guessed_letters.append(user_guess)
-                # figure a way to update the hidden word to reveal the correct letters the user guessed
-                ...
+                # this list comprehension below reveal the correct user guesses
+                word_list = list(hidden_word)
+                spot = [i for i, letter in enumerate(word) if letter == user_guess]
+                for i in spot:
+                    word_list[i] = user_guess
+                hidden_word = "".join(word_list)
                 if "*" not in hidden_word:
                     guessed = True
         # user guess is a word
@@ -92,16 +98,21 @@ def play(word):
         print(f"Guessed letters: {guessed_letters}")
         print(f"Guessed words: {guessed_words}")
         if lives == 0:
-            print("\nYou died")
-            print("Sorry but you ran out of lives")
+            print("\n                 You died")
+            print(f"Sorry but you ran out of lives, the word was: {word}")
         elif guessed:
-            print("You guessed the word, congratulation!!")
+            print(f"\n Congratulation you guessed the word: {word}")
         else:
             continue
 
 
 def main(topic):
     random_word(topic)
+    global answer
+    answer = input("\nWould you like to play again, Yes(Y)/No(N): ").upper()
+    if answer[0] == "Y":
+        topic_again = input("Enter one of the following topic's that you will like to play: Classic, Video Game, Country, or Movie: ").upper()
+        random_word(topic_again)
 
 
 # This should be the first thing you see and this starts the game
