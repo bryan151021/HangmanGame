@@ -8,9 +8,16 @@ Classic = ["about", "accept", "according", "action", "baby", "bag", "ball", "bef
            "example", "even", "event", "exist", "drop", "doctor", "disease", "dream", "drown"]
 
 Movies = ["inception", "goodfellas", "interstellar", "psycho", "parasite", "gladiator", "whiplash", "alien", "oldboy",
-          "coco", "joker", "endgame", "scarface", "heat", "up", "downfall", "batman", "prisoners", "warrior", "logan",
+          "coco", "joker", "boo", "scarface", "heat", "up", "downfall", "batman", "prisoners", "warrior", "logan",
           "rush", "casablanca", "titanic", "it", "chucky", "rocky", "jaws", "platoon", "braveheart", "goodfellas",
-          "network"]
+          "network", "superman", "spiderman", "thor", "transformers", "tron", "avengers", "deadpool", "godzilla", "klaus",
+          "nope", "avatar", "ratatouille", "annabelle", "moonlight", "aquaman", "moana", "chinatown", "fantasia", "frozen",
+          "valentine", "scream", "devil", "maleficent", "planes", "jumanji", "brave", "pinocchio", "gravity", "cinderella",
+          "aladdin", "madagascar", "barnyard", "chronicle", "cars", "saw", "tangled", "shrek", "bolt", "paranoid", "twilight",
+          "click", "adventureland", "bambi", "ghostbusters", "1917", "speed", "platoon", "elvis", "robocop", "elf", "morbius",
+          "sonic", "uncharted", "eternals", "candyman", "old", "luca", "us", "venom", "arrival", "legacy", "soul", "frankenstein",
+          "halloween", "zootopia", "hercules", "coraline", "minions", "sing", "southpaw", "goosebumps", "hustle", "annie",
+          "turbo", "metropolis"]
 
 Video_games = ["minecraft", "fortnite", "tetris", "overwatch", "hades", "bloodborne", "fallout", "inside", "control",
                "journey", "earthbound", "starcraft", "pokemon", "doom", "portal", "undertale", "bioshock", "halo",
