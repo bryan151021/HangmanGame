@@ -7,7 +7,7 @@ There will be three main functions:
   main: Lets the user enter the topic they will like to play in
 
 Description of the game:             
-When the program starts the user will be asked to enter a topic they will like to play in. Then the user will be asked to enter a guess, this can either be a single letter or a word. The user will be given six lives to guess the word, if they fail to do so, the game will end. However, the user will be asked if they would like to play again. 
+When the code starts the user will be asked to enter a topic they will like to play in. Then the user will be asked to enter a guess, this can either be a single letter or a word. The user will be given six lives to guess the word, if they fail to do so, the game will end. However, the user will be asked if they would like to play again. 
 
 
 How users can get started:            
