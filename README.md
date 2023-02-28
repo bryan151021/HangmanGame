@@ -6,7 +6,7 @@ There will be three main functions:
   play: The main interface that the user will see/use, user will be guessing the word here  
   main: Lets the user enter the topic they will like to play in
 
-What the project does:             
+Description of the game:             
 When the program starts the user will be asked to enter a topic they will like to play in. Then the user will be asked to enter a guess, this can either be a single letter or a word. The user will be given six lives to guess the word, if they fail to do so, the game will end. However, the user will be asked if they would like to play again. 
 
 
