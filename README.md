@@ -11,7 +11,7 @@ When the program starts the user will be asked to enter a topic they will like t
 
 
 How users can get started:            
-You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and name it. Then create two files, one file will have the lists of words for each topic and the parts of the hangman. The other file will be the main file where the whole code is written in. Copy and paste the code into their proper files and after that, you should be able to play the game.
+You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and naming it. Then create two files, one file will have the lists of words for each topic and the parts of the hangman. The other file will be the main file where the whole code is written in. Copy and paste the code into their proper files and after that, you should be able to play the game.
 
 
 Where users can get help and contribution:               
