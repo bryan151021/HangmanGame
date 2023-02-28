@@ -3,8 +3,7 @@ This is a simple Hangman game written in python that will give the user the chan
 
 There will be three main functions:
 
-  random_word: Chooses a random word from the list that the user entered
-  
+  random_word: Chooses a random word from the list that the user entered                          
   play: The main interface that the user will see/use, user will be guessing the word here  
   main: Lets the user enter the topic they will like to play in
 
