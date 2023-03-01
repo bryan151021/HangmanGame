@@ -1,7 +1,8 @@
 from Topics import Classic, Movies, Video_games, Countries, Hangman_parts
 import random
 
-# Chooses a random word from the topic the user entered
+
+# Chooses a random word from the topic that the user entered
 def random_word(topic):
     if topic == "CLASSIC":
         word = random.choice(Classic)
@@ -16,9 +17,10 @@ def random_word(topic):
         word = random.choice(Countries)
         return play(word.upper())
     else:
-        # This allows the user to input the topic again because the first attempt was invalid
+        # This allows the user to enter a topic again because the first attempt was invalid
         print("\nYou entered a invalid Topic, try again.")
         main()
+
 
 def play(word):
     guessed = False
@@ -28,25 +30,25 @@ def play(word):
     lives = 6
     print(Hangman_parts[lives])
     print(f"Secret word: {hidden_word}")
-    print(f"Letters in word: {len(word)} ")
+    print(f"Letters in word: {len(word)}")
     print(f"Lives = {lives}")
     while not guessed and lives > 0:
         user_guess = input("\nEnter a guess, this can either be a letter or a word: ").upper().strip()
-        # user entered a single letter guess
+        # User entered a single letter guess
         if len(user_guess) == 1:
-            # checks if the user guess is in guessed letters
+            # Checks if the user guess is in guessed letters
             if user_guess in guessed_letters:
                 print(f"You already guessed this letter: {user_guess}")
-            # checks if the user guess is not in the word
+            # Checks if the user guess is not in the word
             elif user_guess not in word:
                 guessed_letters.append(user_guess)
                 lives -= 1
                 print(f"Sorry but {user_guess} is not in the word")
-            # means the user guess is in the word
+            # Means the user guess is in the word
             else:
                 print(f"Correct {user_guess} is in the word")
                 guessed_letters.append(user_guess)
-                # this list comprehension below reveals the correct letters the user guessed
+                # The list comprehension below reveals the correct letters the user guessed
                 word_list = list(hidden_word)
                 spot = [i for i, letter in enumerate(word) if letter == user_guess]
                 for i in spot:
@@ -54,26 +56,26 @@ def play(word):
                 hidden_word = "".join(word_list)
                 if "*" not in hidden_word:
                     guessed = True
-        # user entered a guess the length of the word
+        # User entered a guess the length of the word
         elif len(user_guess) == len(word):
-            # checks if the user guess is in guessed words
+            # Checks if the user guess is in guessed words
             if user_guess in guessed_words:
                 print(f"You already guessed this word: {user_guess}")
-            # checks if the user guess is not the word
+            # Checks if the user guess is not the word
             elif user_guess != word:
                 guessed_words.append(user_guess)
                 lives -= 1
                 print(f"Sorry but {user_guess} is not the word")
-            # means the user guessed the word
+            # Means the user guessed the word
             else:
                 hidden_word = word
                 guessed = True
-        # user's guess is invalid
+        # Users guess is invalid
         else:
             print("You entered a invalid guess.")
         print(Hangman_parts[lives])
         print(f"hidden word: {hidden_word}")
-        print(f"Letters in word: {len(word)} ")
+        print(f"Letters in word: {len(word)}")
         print(f"lives remaining: {lives}")
         print(f"Guessed letters: {guessed_letters}")
         print(f"Guessed words: {guessed_words}")
@@ -86,6 +88,7 @@ def play(word):
     if answer[0] == "Y":
         topic_again = input("Enter one of the following topic's that you will like to play: Classic, Video Game, Country, or Movie: ").upper().strip()
         random_word(topic_again)
+
 
 def main():
     global topic

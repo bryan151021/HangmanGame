@@ -7,7 +7,7 @@ Classic = ["about", "accept", "according", "action", "baby", "bag", "ball", "bef
            "game", "government", "general", "future", "forward", "focus", "follow", "food", "finger", "film", "ever",
            "example", "even", "event", "exist", "drop", "doctor", "disease", "dream", "drown"]
 
-Movies = ["inception", "goodfellas", "interstellar", "psycho", "parasite", "gladiator", "whiplash", "alien", "oldboy",
+Movies = ["inception", "skyscraper", "interstellar", "psycho", "parasite", "gladiator", "whiplash", "alien", "oldboy",
           "coco", "joker", "boo", "scarface", "heat", "up", "downfall", "batman", "prisoners", "warrior", "logan",
           "rush", "casablanca", "titanic", "it", "chucky", "rocky", "jaws", "platoon", "braveheart", "goodfellas",
           "network", "superman", "spiderman", "thor", "transformers", "tron", "avengers", "deadpool", "godzilla", "klaus",
@@ -17,13 +17,15 @@ Movies = ["inception", "goodfellas", "interstellar", "psycho", "parasite", "glad
           "click", "adventureland", "bambi", "ghostbusters", "1917", "speed", "platoon", "elvis", "robocop", "elf", "morbius",
           "sonic", "uncharted", "eternals", "candyman", "old", "luca", "us", "venom", "arrival", "legacy", "soul", "frankenstein",
           "halloween", "zootopia", "hercules", "coraline", "minions", "sing", "southpaw", "goosebumps", "hustle", "annie",
-          "turbo", "metropolis"]
+          "turbo", "metropolis", "rango", "tag"]
 
 Video_games = ["minecraft", "fortnite", "tetris", "overwatch", "hades", "bloodborne", "fallout", "inside", "control",
                "journey", "earthbound", "starcraft", "pokemon", "doom", "portal", "undertale", "bioshock", "halo",
-               "inside", "fifa", "destiny", "dishonored", "journey", "limbo", "borderlands", "braid", "spelunky",
+               "fifa", "destiny", "dishonored", "stray", "limbo", "borderlands", "braid", "spelunky", "skyrim",
                "psychonauts", "rez", "everquest", "homeworld", "shenmue", "diablo", "quake", "wipeout", "sonic", "worms",
-               "simcity", "gauntlet"]
+               "simcity", "gauntlet", "batman", "cuphead", "driver", "ducktales", "hitman", "homefront", "megaman",
+               "pacman", "skylanders", "uncharted", "battleship", "monopoly", "littlebigplanet", "myst", "tunic", "roblox",
+               "titanfall", "valorant", "metroid", "castlevania", "zork", "sudoku", "arkanoid", "breakout", "chess"]
 
 Countries = ["afghanistan", "albania", "algeria", "argentina", "australia", "netherlands", "senegal", "ecuador", "qatar",
              "england", "usa", "iran", "wales", "poland", "mexico", "france", "australia", "tunisia", "denmark", "japan",
