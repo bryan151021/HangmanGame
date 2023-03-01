@@ -6,12 +6,12 @@ There will be three main functions:
   play: The main interface that the user will see/use, user will be guessing the word here  
   main: Lets the user enter the topic they will like to play in
 
-What the project does:             
-When the program starts the user will be asked to enter a topic they will like to play in. Then the user will be asked to enter a guess, this can either be a single letter or a word. The user will be given six lives to guess the word, if they fail to do so, the game will end. However, the user will be asked if they would like to play again. 
+Description of the game:             
+When the code starts the user will be asked to enter a topic they will like to play in. Then the user will be asked to enter a guess, this can either be a single letter or a word. The user will be given six lives to guess the word, if they fail to do so, the game will end. However, the user will be asked if they would like to play again. 
 
 
 How users can get started:            
-You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and name it. Then create two files, one file will have the lists of words for each topic and the parts of the hangman. The other file will be the main file where the whole code is written in. Copy and paste the code into their proper files and after that, you should be able to play the game.
+You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and naming it. Then create two files, one file will have the lists of words for each topic and the parts of the hangman. The other file will be the main file where the whole code is written in. Copy and paste the code into their proper files and after that, you should be able to play the game.
 
 
 Where users can get help and contribution:               
