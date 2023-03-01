@@ -1,13 +1,13 @@
 # HangmanGame
-This is a simple Hangman game written in python that will give the user the chance to choose one of the following topics to play in, Classic, Movie, Video Game, or Country. 
+This is a simple Hangman game written in python that will give the user the chance to choose one of the following topics to play in: Classic, Movie, Video Game, or Country. 
 
 There are three main functions in this code:                      
   random_word: Chooses a random word from the list that the user entered                          
   play: The main interface that the user will see/use, user will be guessing the word here  
-  main: Lets the user enter the topic they will like to play in
+  main: Allows the user enter the topic they will like to play in
 
 Description of the game:             
-When you start the game, the user will be asked to enter a topic they will like to play in. The code will select a random word from the topic that the user entered. Then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
+When you start the game, the user will be asked to enter a topic they would like to play in. The code will select a random word from the topic that the user entered then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
 
 How users can get started:            
 You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and naming it. Then create two files, one file will have the lists of words for each topic and the parts of the hangman. The other file will be the main file where the whole code is written in. Copy and paste the code into their proper files and after that, you should be able to play the game.
