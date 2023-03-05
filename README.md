@@ -3,9 +3,9 @@ This is a simple Hangman game written in python that will give the user the chan
 
 ----
 ### There are three main functions in this code:
-- 'random_word': Chooses a random word from the list that the user entered                          
-- 'play': The main interface that the user will see/use, user will be guessing the word here  
-- 'main': Allows the user enter the topic they will like to play in
+- 'random_word' : Chooses a random word from the list that the user entered                          
+- 'play' : The main interface that the user will see/use, user will be guessing the word here  
+- 'main' : Allows the user enter the topic they will like to play in
 ----
 ### Description of the game:
 When you start the game, the user will be asked to enter a topic they would like to play in. The code will select a random word from the topic that the user entered then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
