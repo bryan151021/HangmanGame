@@ -18,9 +18,9 @@ You will need to have an IDE installed to run the code, I used Pycharm. Start by
 ### Where users can get help and contribution:
 Im currently the only person working on this project, so if you need any help you can contact me through this email, bmw10420@gmail.com. I will set up a contribution section later on. As of right now the code should work perfectly fine so no changes are needed. If some changes would be made, it would be some new features to the game. 
 
-| Its purpose | code | output |
-| --- | --- | --- |
-| Chooses a random word from the topic the user entered | def random_word(topic):
+----
+### Examples of the output of some of the code
+```def random_word(topic):
     if topic == "CLASSIC":
         word = random.choice(Classic)
         return play(word.upper())
@@ -36,5 +36,7 @@ Im currently the only person working on this project, so if you need any help yo
     else:
         # This allows the user to enter a topic again because the first attempt was invalid
         print("\nYou entered a invalid Topic, try again.")
-        main() | ![alt text](http://picsum.photos/200/200) |
-| h | h | h |
+        main()```
+ 
+ ![alt text](http://picsum.photos/200/200)
+
