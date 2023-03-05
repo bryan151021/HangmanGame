@@ -18,4 +18,4 @@ You will need to have an IDE installed to run the code, I used Pycharm. Start by
 ### Where users can get help and contribution:
 Im currently the only person working on this project, so if you need any help you can contact me through this email, bmw10420@gmail.com. I will set up a contribution section later on. As of right now the code should work perfectly fine so no changes are needed. If some changes would be made, it would be some new features to the game. 
 
-! [alt text] (http://picsum.photos/200/200)
+![alt text](http://picsum.photos/200/200)
