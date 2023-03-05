@@ -20,5 +20,21 @@ Im currently the only person working on this project, so if you need any help yo
 
 | Its purpose | code | output |
 | --- | --- | --- |
-| Chooses a random word from the topic the user entered | ```html <p>code</p> ``` | ![alt text](http://picsum.photos/200/200) |
+| Chooses a random word from the topic the user entered | ```def random_word(topic):
+    if topic == "CLASSIC":
+        word = random.choice(Classic)
+        return play(word.upper())
+    elif topic == "MOVIE":
+        word = random.choice(Movies)
+        return play(word.upper())
+    elif topic == "VIDEO GAME":
+        word = random.choice(Video_games)
+        return play(word.upper())
+    elif topic == "COUNTRY":
+        word = random.choice(Countries)
+        return play(word.upper())
+    else:
+        # This allows the user to enter a topic again because the first attempt was invalid
+        print("\nYou entered a invalid Topic, try again.")
+        main()``` | ![alt text](http://picsum.photos/200/200) |
 ![alt text](http://picsum.photos/200/200)
