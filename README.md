@@ -20,5 +20,5 @@ Im currently the only person working on this project, so if you need any help yo
 
 | Its purpose | code | output |
 | --- | --- | --- |
-| Chooses a random word from the topic the user entered | <p>code</p> | ![alt text](http://picsum.photos/200/200) |
+| Chooses a random word from the topic the user entered | ```html <p>code</p> ``` | ![alt text](http://picsum.photos/200/200) |
 ![alt text](http://picsum.photos/200/200)
