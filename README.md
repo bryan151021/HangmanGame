@@ -1,5 +1,5 @@
 # HangmanGame
-This is a simple Hangman game written in python that will give the user the chance to choose one of the following topics to play in: Classic, Movie, Video Game, or Country. 
+This is a simple Hangman game written in python that will give the user the chance to choose one of the following topics to play in: ** Classic **, ** Movie **, ** Video Game **, or ** Country **. 
 
 ----
 ### There are three main functions in this code:
