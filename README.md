@@ -20,7 +20,8 @@ Im currently the only person working on this project, so if you need any help yo
 
 | Its purpose | code | output |
 | --- | --- | --- |
-| Chooses a random word from the topic the user entered | ```def random_word(topic):
+| Chooses a random word from the topic the user entered | ```
+def random_word(topic):
     if topic == "CLASSIC":
         word = random.choice(Classic)
         return play(word.upper())
