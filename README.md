@@ -38,6 +38,7 @@ Chooses a random word from the list the topic the user entered:
         # This allows the user to enter a topic again because the first attempt was invalid
         print("\nYou entered a invalid Topic, try again.")
         main()
+        
  ![alt text](http://picsum.photos/200/200)
  ```
 
