@@ -39,6 +39,6 @@ Chooses a random word from the list the topic the user entered:
         print("\nYou entered a invalid Topic, try again.")
         main()
  ```
- ![Untitled](https://user-images.githubusercontent.com/119261711/222940328-2556b18b-025d-4ebd-9752-eab173845ecc.png/200/200)
+ ![Untitled](119261711/222940328-2556b18b-025d-4ebd-9752-eab173845ecc.png/200/200)
 
 
