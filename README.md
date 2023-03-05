@@ -20,7 +20,7 @@ Im currently the only person working on this project, so if you need any help yo
 
 | Its purpose | code | output |
 | --- | --- | --- |
-| Chooses a random word from the topic the user entered | ```def random_word(topic):
+| Chooses a random word from the topic the user entered | def random_word(topic):
     if topic == "CLASSIC":
         word = random.choice(Classic)
         return play(word.upper())
@@ -36,5 +36,5 @@ Im currently the only person working on this project, so if you need any help yo
     else:
         # This allows the user to enter a topic again because the first attempt was invalid
         print("\nYou entered a invalid Topic, try again.")
-        main()``` | ![alt text](http://picsum.photos/200/200) |
+        main() | ![alt text](http://picsum.photos/200/200) |
 | h | h | h |
