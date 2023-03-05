@@ -8,7 +8,7 @@ This is a simple Hangman game written in python that will give the user the chan
 - `main`: Allows the user enter the topic they will like to play in
 ----
 ### Description of the game:
-> When you start the game, the user will be asked to enter a topic they would like to play in. The code will select a random word from the topic that the user entered then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
+When you start the game, the user will be asked to enter a topic they would like to play in. The code will select a random word from the topic that the user entered then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
 
 ----
 ### How users can get started:
@@ -17,3 +17,5 @@ You will need to have an IDE installed to run the code, I used Pycharm. Start by
 ----
 ### Where users can get help and contribution:
 Im currently the only person working on this project, so if you need any help you can contact me through this email, bmw10420@gmail.com. I will set up a contribution section later on. As of right now the code should work perfectly fine so no changes are needed. If some changes would be made, it would be some new features to the game. 
+
+! [alt text] (http://picsum.photos/200/200)
