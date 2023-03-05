@@ -41,5 +41,5 @@ Chooses a random word from the list the topic the user entered:
  ```
  
 
-![Untitled](https://user-images.githubusercontent.com/119261711/222940369-59bad894-5dfc-4e76-8f8e-8f6cc10b44ee.png)
+Output: ![Untitled](https://user-images.githubusercontent.com/119261711/222940369-59bad894-5dfc-4e76-8f8e-8f6cc10b44ee.png)
 
