@@ -2,7 +2,7 @@
 This is a simple Hangman game written in python that will give the user the chance to choose one of the following topics to play in: Classic, Movie, Video Game, or Country. 
 
 ### There are three main functions in this code:
-====
+----
   random_word: Chooses a random word from the list that the user entered                          
   play: The main interface that the user will see/use, user will be guessing the word here  
   main: Allows the user enter the topic they will like to play in
