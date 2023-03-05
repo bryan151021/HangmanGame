@@ -10,7 +10,7 @@ Description of the game:
 When you start the game, the user will be asked to enter a topic they would like to play in. The code will select a random word from the topic that the user entered then they will be asked to enter a guess, this can either be a letter or a word. You will be given six lives to guess the word, for every incorrect attempt, the code will take one life away from the user, and when you have zero lives left, the game will end. However, you will be given the chance to play again at the end. 
 
 How users can get started:            
-You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and naming it. Then create two files, one file will be named Topics and will have the lists of words for each topic and the parts of the hangman. The other file will be named main and it will contain the whole code to run the game. Copy and paste the code into their proper files and after that, you should be able to play the game.
+You will need to have an IDE installed to run the code, I used Pycharm. Start by creating a new project and naming it. Then create two files, one file will be named Topics and will have the lists of words for each topic and the parts of the hangman. The other file will be named main and it will contain the whole code to run the game. Then insert the code into their proper files and after that, you should be able to play the game.
 
 
 Where users can get help and contribution:               
