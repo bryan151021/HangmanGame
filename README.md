@@ -20,6 +20,7 @@ Im currently the only person working on this project, so if you need any help yo
 
 ----
 ### Examples of the output of some of the code
+Chooses a random word from the list the topic the user entered
 ```def random_word(topic):
     if topic == "CLASSIC":
         word = random.choice(Classic)
@@ -36,7 +37,7 @@ Im currently the only person working on this project, so if you need any help yo
     else:
         # This allows the user to enter a topic again because the first attempt was invalid
         print("\nYou entered a invalid Topic, try again.")
-        main()```
- 
+        main()
+ ```
  ![alt text](http://picsum.photos/200/200)
 
