@@ -63,7 +63,7 @@ while not guessed and lives > 0:
 ### `Output:`  ![Untitled 5](https://user-images.githubusercontent.com/119261711/222999662-d3a54520-7b00-4168-88a7-59ab9e2dda44.png)
 
 ----
-- Tells the user to enter one of the four topics and call the function random_word:
+- Tells the user to enter one of the four topics and calls the function random_word:
 ```
 def main():
     global topic
