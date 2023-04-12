@@ -88,7 +88,12 @@ def play(word):
         print(f"\nCongratulation you guessed the word: {word}")
     answer = input("\nWould you like to play again, Yes(Y)/No(N): ").upper().strip()
     if answer.startswith("Y"):
+<<<<<<< HEAD
         main()
+=======
+        topic_again = input("Enter one of the following topic's that you will like to play: Classic, Video Game, Country, or Movie: ").upper().strip()
+        random_word(topic_again)
+>>>>>>> a3b7a8fccc879fa686c66bff57a1bdb33ad688ba
 
 
 def main():
