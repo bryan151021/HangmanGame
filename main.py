@@ -28,6 +28,7 @@ def play(word):
     guessed_words = []
     hidden_word = "*" * len(word)
     lives = 6
+    print(f"\nTopic: {topic}", end="")
     print(Hangman_parts[lives])
     print(f"Secret word: {hidden_word}")
     print(f"Letters in word: {len(word)}")
@@ -73,6 +74,7 @@ def play(word):
         # Users guess is invalid
         else:
             print("You entered a invalid guess.")
+        print(f"\nTopic: {topic}", end="")
         print(Hangman_parts[lives])
         print(f"hidden word: {hidden_word}")
         print(f"Letters in word: {len(word)}")
@@ -85,9 +87,8 @@ def play(word):
     else:
         print(f"\nCongratulation you guessed the word: {word}")
     answer = input("\nWould you like to play again, Yes(Y)/No(N): ").upper().strip()
-    if answer[0] == "Y":
-        topic_again = input("Enter one of the following topic's that you will like to play: Classic, Video Game, Country, or Movie: ").upper().strip()
-        random_word(topic_again)
+    if answer.startswith("Y"):
+        main()
 
 
 def main():
